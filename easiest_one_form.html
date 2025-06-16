@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Registration Form</title>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  
+  <p>Name: <input type="text" id="name"></p>
+  <p>Email: <input type="email" id="email"></p>
+  <p>Gender: 
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+  </p>
+  <p>City:
+    <select id="city">
+      <option value="">Select</option>
+      <option value="Dhaka">Dhaka</option>
+      <option value="Chittagong">Chittagong</option>
+    </select>
+  </p>
+  <p>Address: <br>
+    <textarea id="address" rows="3" cols="30"></textarea>
+  </p>
+
+  <button onclick="formHandler.submit()">Submit</button>
+<script src="easiest_one_form.js">
+  </script>
+</body>
+</html>
